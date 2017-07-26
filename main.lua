@@ -94,7 +94,6 @@ function love.load()
 end
 
 function love.draw()
-  print(#rects)
   for i = 1, #rects do
     local rect = rects[i]
     love.graphics.setColor(255,255,255,100)
